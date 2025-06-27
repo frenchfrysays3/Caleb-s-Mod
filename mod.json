@@ -1,5 +1,5 @@
 {
-	"geode": "4.6.1",
+	"geode": "4.6.2",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -8,7 +8,7 @@
 	},
 	"id": "frenchfrysays.calebsmod",
 	"name": "Caleb's Mod",
-	"version": "v1.0.4",
+	"version": "v1.0.5",
 	"developer": "frenchfrysays",
 	"description": "A Mod for caleb",
 	"resources": {
