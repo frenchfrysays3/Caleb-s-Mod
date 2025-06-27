@@ -1,3 +1,6 @@
+# 1.0.9
+- Added caleb as dev
+
 # v1.0.8
 - Added website link
 

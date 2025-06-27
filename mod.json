@@ -8,8 +8,11 @@
 	},
 	"id": "frenchfrysays.calebsmod",
 	"name": "Caleb's Mod",
-	"version": "v1.0.8",
-	"developer": "frenchfrysays",
+	"version": "v1.0.9",
+	"developers": [
+		"frenchfrysays",
+		"lilfrysays"
+	],
 	"description": "A Mod for caleb",
 	"resources": {
 		"files": [
