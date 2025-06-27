@@ -1,3 +1,7 @@
+# v1.0.7
+- Fixed GitHub link (again)
+- Added tags
+
 # v1.0.6
 - Added new versions to the changelog
 

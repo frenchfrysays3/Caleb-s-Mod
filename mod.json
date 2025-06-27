@@ -8,7 +8,7 @@
 	},
 	"id": "frenchfrysays.calebsmod",
 	"name": "Caleb's Mod",
-	"version": "v1.0.6",
+	"version": "v1.0.7",
 	"developer": "frenchfrysays",
 	"description": "A Mod for caleb",
 	"resources": {
@@ -23,6 +23,10 @@
 		"geode.node-ids": "1.20.1"
 	},
 	"links": {
-		"source": "https://github.com/lilfrysays3/calebs-mod/"
-	}
+		"source": "https://github.com/frenchfrysays3/calebs-mod/"
+	},
+	"tags": [
+		"interface",
+		"offline"
+	]
 }
