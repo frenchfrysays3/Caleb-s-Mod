@@ -11,6 +11,8 @@ class $modify(MenuLayer, MyMenuLayer) {
 
 		auto godzillaSpr = CCSprite::create("godzilla.png"_spr);
 		auto godzillaBtn = CCMenuItemSpriteExtra::create(godzillaSpr, this, menu_selector(MyMenuLayer::onGodzillaBtn));
+
+		log::debug("Added a button");
 		
 		auto menu = this->getChildByID("bottom-menu");
 		menu->addChild(godzillaBtn);
