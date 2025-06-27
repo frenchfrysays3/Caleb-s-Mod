@@ -31,6 +31,10 @@ class $modify(MyMenuLayer, MenuLayer) {
 			"Ok Cool"
 		)->show();
 
+		log::debug("Created and shown popup");
+
 		FMODAudioEngine::sharedEngine()->playEffect("Godzilla-roar.mp3"_spr);
+
+		log::debug("Played Sound Effect eith FMOD");
 	}
 };
