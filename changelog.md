@@ -1,3 +1,6 @@
+# v1.0.8
+- Added website link
+
 # v1.0.7
 - Fixed GitHub link (again)
 - Added tags
