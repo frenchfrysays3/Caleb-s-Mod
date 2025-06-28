@@ -33,8 +33,34 @@ class $modify(MyMenuLayer, MenuLayer) {
 
 		log::debug("Created and shown popup");
 
-		FMODAudioEngine::sharedEngine()->playEffect("Godzilla-roar.mp3"_spr);
+		static int sound = 0;
 
-		log::debug("Played Sound Effect eith FMOD");
+		if (sound == 0) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar1.mp3"_spr);
+		} else if (sound == 1) {
+			FMODAudioEngine::sharedEngine()->playeEffect("godzilla-roar2.mp3"_spr);
+		} else if (sound == 2) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar3.mp3"_spr);
+		} else if (sound == 3) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar4.mp3"_spr);
+		} else if (sound == 4) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar5.mp3"_spr);
+		} else if (sound == 5) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar6.mp3"_spr);
+		} else if (sound == 6) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar7.mp3"_spr);
+		} else if (sound == 7) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar8.mp3"_spr);
+		} else if (sound == 8) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar9.mp3"_spr);
+		} else if (sound == 9) {
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar10.mp3"_spr);
+		}
+
+		sound = sound + 1;
+
+		if (sound == 10) {
+			sound = 0;
+		}
 	}
 };

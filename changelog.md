@@ -1,3 +1,6 @@
+# 1.1.0
+- Added a rotation of godzilla roars
+
 # 1.0.10
 - Fixed website link
 
