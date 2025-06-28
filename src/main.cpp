@@ -38,7 +38,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 		if (sound == 0) {
 			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar1.mp3"_spr);
 		} else if (sound == 1) {
-			FMODAudioEngine::sharedEngine()->playeEffect("godzilla-roar2.mp3"_spr);
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar2.mp3"_spr);
 		} else if (sound == 2) {
 			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar3.mp3"_spr);
 		} else if (sound == 3) {
