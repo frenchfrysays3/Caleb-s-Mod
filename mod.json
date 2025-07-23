@@ -8,7 +8,7 @@
 	},
 	"id": "frenchfrysays.calebsmod",
 	"name": "Caleb's Mod",
-	"version": "v1.1.0",
+	"version": "v1.1.1",
 	"developers": [
 		"frenchfrysays",
 		"lilfrysays"
@@ -35,11 +35,11 @@
 		"geode.node-ids": "1.20.1"
 	},
 	"links": {
-		"source": "https://github.com/frenchfrysays3/calebs-mod/",
-		"homepage": "https://frenchfrysays3.github.io/mods/mods/calebs-mod.html"
+		"source": "https://github.com/frenchfrysays3/calebs-mod/"
 	},
 	"tags": [
 		"interface",
-		"offline"
+		"offline",
+		"joke"
 	]
 }
