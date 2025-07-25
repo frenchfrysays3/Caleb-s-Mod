@@ -47,8 +47,8 @@
 			"type": "bool",
 			"name": "Toggle the button",
 			"description": "[name]",
-			"default": true
-
+			"default": true,
+			"requires-restart": true
 		}
 	}
 }
