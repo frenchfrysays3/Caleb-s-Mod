@@ -9,17 +9,19 @@ class $modify(MyMenuLayer, MenuLayer) {
 			return false;
 		}
 
-		auto godzillaSpr = CCSprite::create("godzilla.png"_spr);
-		auto godzillaBtn = CCMenuItemSpriteExtra::create(godzillaSpr, this, menu_selector(MyMenuLayer::onGodzillaBtn));
+		if (!Mod::get()->getSettingValue<bool>("button-toggle") == true) {
+			auto godzillaSpr = CCSprite::create("godzilla.png"_spr);
+			auto godzillaBtn = CCMenuItemSpriteExtra::create(godzillaSpr, this, menu_selector(MyMenuLayer::onGodzillaBtn));
 
-		log::debug("Added a button");
-		
-		auto menu = this->getChildByID("bottom-menu");
-		menu->addChild(godzillaBtn);
+			log::debug("Added a button");
+			
+			auto menu = this->getChildByID("bottom-menu");
+			menu->addChild(godzillaBtn);
 
-		godzillaBtn->setID("godzillaBtn"_spr);
+			godzillaBtn->setID("godzillaBtn"_spr);
 
-		menu->updateLayout();
+			menu->updateLayout();
+		}
 
 		return true;
 	}
@@ -33,6 +35,10 @@ class $modify(MyMenuLayer, MenuLayer) {
 
 		log::debug("Created and shown popup");
 
+		sound();
+	}
+
+	void sound() {
 		static int sound = 0;
 
 		if (sound == 0) {

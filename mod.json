@@ -8,7 +8,7 @@
 	},
 	"id": "frenchfrysays.calebsmod",
 	"name": "Caleb's Mod",
-	"version": "v1.1.1",
+	"version": "v1.2.0",
 	"developers": [
 		"frenchfrysays",
 		"lilfrysays"
@@ -41,5 +41,14 @@
 		"interface",
 		"offline",
 		"joke"
-	]
+	],
+	"settings": {
+		"button-toggle": {
+			"type": "bool",
+			"name": "Toggle the button",
+			"description": "[name]",
+			"default": true
+
+		}
+	}
 }
