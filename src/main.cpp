@@ -33,6 +33,12 @@ class $modify(MyMenuLayer, MenuLayer) {
 
 		log::debug("Created and shown popup");
 
+		roar();
+
+		log::debug("Roar has played");
+	}
+
+	void roar() {
 		static int sound = 0;
 
 		if (sound == 0) {
@@ -57,10 +63,12 @@ class $modify(MyMenuLayer, MenuLayer) {
 			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar10.mp3"_spr);
 		}
 
-		sound = sound + 1;
-
 		if (sound == 10) {
-			sound = 0;
+			sound = 1;
+
+			FMODAudioEngine::sharedEngine()->playEffect("godzilla-roar1.mp3"_spr);
 		}
+
+		sound = sound + 1;
 	}
 };

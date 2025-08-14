@@ -1,5 +1,5 @@
 {
-	"geode": "4.6.2",
+	"geode": "4.7.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -16,16 +16,7 @@
 	"description": "A Mod for caleb",
 	"resources": {
 		"files": [
-			"res/sounds/godzilla-roar1.mp3",
-			"res/sounds/godzilla-roar2.mp3",
-			"res/sounds/godzilla-roar3.mp3",
-			"res/sounds/godzilla-roar4.mp3",
-			"res/sounds/godzilla-roar5.mp3",
-			"res/sounds/godzilla-roar6.mp3",
-			"res/sounds/godzilla-roar7.mp3",
-			"res/sounds/godzilla-roar8.mp3",
-			"res/sounds/godzilla-roar9.mp3",
-			"res/sounds/godzilla-roar10.mp3"
+			"res/sounds*"
 		],
 		"sprites": [
 			"res/sprites/godzilla.png"
