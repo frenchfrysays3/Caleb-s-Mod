@@ -1,3 +1,9 @@
+# v1.2.0
+- Added a toggle as a different way of disabling the mod
+
+# 1.1.1
+- Added joke tag
+
 # 1.1.0
 - Added a rotation of godzilla roars
 
@@ -24,7 +30,7 @@
 - Made button sprite circular
 
 # v1.0.3
-- Added log statements ```C++ log::debug(); ```
+- Added log statements ```log::debug();```
 
 # v1.0.2
 - Fixed logo aspect ratio
