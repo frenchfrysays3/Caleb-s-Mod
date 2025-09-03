@@ -1,4 +1,4 @@
-# Caleb'sMod
+# Caleb's Mod
 Mod for Caleb as he requested it.
 
 **Current not in development as he will not install the mod**
