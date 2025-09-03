@@ -35,19 +35,10 @@ class $modify(MyMenuLayer, MenuLayer) {
 
 		log::debug("Created and shown popup");
 
-<<<<<<< HEAD
-		roar();
-
-		log::debug("Roar has played");
-	}
-
-	void roar() {
-=======
 		sound();
 	}
 
 	void sound() {
->>>>>>> 0284e7acd730632b5a51d41367145523341e8ae5
 		static int sound = 0;
 
 		if (sound == 0) {
