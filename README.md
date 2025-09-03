@@ -1,18 +1,19 @@
 # Caleb'sMod
-This is where she makes a mod.
+Mod for Caleb as he requested it.
+
+**Current not in development as he will not install the mod**
 
 <img src="logo.png" width="150" alt="the mod's logo" />
 
-*Update logo.png to change your mod's icon (please)*
-
-## Getting started
-We recommend heading over to [the getting started section on our docs](https://docs.geode-sdk.org/getting-started/) for useful info on what to do next.
-
 ## Build instructions
-For more info, see [our docs](https://docs.geode-sdk.org/getting-started/create-mod#build)
 ```sh
-# Assuming you have the Geode CLI set up already
-geode build
+# Assuming you have CMake installed
+
+# Configure the mod
+cmake -B build
+
+# Build
+cmake --build build --config RelWithDebInfo
 ```
 
 # Resources
