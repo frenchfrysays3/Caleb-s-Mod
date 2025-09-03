@@ -16,7 +16,7 @@
 	"description": "A Mod for caleb",
 	"resources": {
 		"files": [
-			"res/sounds*"
+			"res/sounds/*"
 		],
 		"sprites": [
 			"res/sprites/godzilla.png"
